@@ -74,7 +74,7 @@ const Welcome = () => {
           </div>
           <div>
             <p className="text-xs sm:text-sm">
-              {addressShortener(currentAccount)}
+              {addressShortener(currentAccount) || ""}
             </p>
             <p className="font-medium">Ethereum</p>
           </div>
